@@ -32,14 +32,14 @@ You can either:
   git clone git@github.com:ZishanVahora1/AutoFill-DL-OCR.git
 (RECOMMENDED) Just download the repo as a .ZIP file
 
-##Install Dependencies
+## Install Dependencies
 
 Make sure you have Python 3.8+ installed.
 Install dependencies with:
 
 pip install google-cloud-vision openpyxl pandas watchdog pillow
 
-##Add Your Google Vision Credentials
+## Add Your Google Vision Credentials
 
 Download your service account JSON file from the Google Cloud Console
 .
@@ -53,14 +53,14 @@ export GOOGLE_APPLICATION_CREDENTIALS="/Users/yourname/Desktop/Excel_Test/DLOCR.
 You must do this step each time you open a new terminal, unless you add it permanently to your shell config (~/.zshrc or ~/.bashrc).
 
 
-##Run the Watcher
+## Run the Watcher
 
 Navigate into the folder:
 
 cd ~/Desktop/Excel_Test
 python3 watch_and_process.py
 
-##✅ Example Workflow
+## ✅ Example Workflow
 
 Start watcher → python3 watch_and_process.py
 
@@ -68,7 +68,7 @@ Drop in DL_Test.jpg
 
 Open data.xlsx → see extracted details + clickable “View Image” link
 
-##📌 Requirements
+## 📌 Requirements
 
 Python 3.8+
 
