@@ -1,0 +1,14 @@
+DLOCR.json
+data.xlsx
+last_ocr.txt
+dist/
+build/
+__pycache__/
+*.pyc
+*.spec
+*.zip
+*.jpg
+*.jpeg
+*.png
+.DS_Store
+.vscode/
