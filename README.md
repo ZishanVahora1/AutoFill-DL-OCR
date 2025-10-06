@@ -4,8 +4,6 @@
 This project automates the extraction of text from driver’s license images using **Google Cloud Vision OCR** and logs the parsed details into an **Excel file**.  
 It also includes a **watcher script** that automatically detects new images dropped into a folder, processes them, and appends the results into the spreadsheet.
 
-Live video of the project here: <https://devpost.com/software/autofill-dl-ocr>
-
 ---
 
 ## ✨ Features
@@ -13,6 +11,7 @@ Live video of the project here: <https://devpost.com/software/autofill-dl-ocr>
 - Appends results to an **Excel sheet (`data.xlsx`)** with a `View Image` link.
 - Supports **macOS** (tested), and also works on Linux/Windows.
 - Auto-processes new files dropped into the target folder using a **file system watcher**.
+- Live video of the project here: <https://devpost.com/software/autofill-dl-ocr>
 
 ---
 
